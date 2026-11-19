@@ -1,0 +1,50 @@
+# Kahoots aus der Kursarbeit in Teams (MB23b Berufskunde).
+# Übernehmen:   python tools/kahoot_import.py kahoot-links.txt
+#
+# Eine Zeile [Name] legt die Gruppe für die Links darunter fest.
+# Zeilen mit # am Anfang sind Notizen. Neue Links einfach dazuschreiben.
+
+[Kahoot: Fachkunde]
+# Bauphysikalische Grundlagen (P6)
+https://kahoot.it/challenge/08472620?challenge-id=5ad25a43-7aa9-423f-8771-52b908cba537_1793169615348
+# Thermisches Trennen und Wasserstrahlschneiden (F2)
+https://create.kahoot.it/share/thermisches-trennen/3a7a2199-1a69-47dd-81fb-2b96171ba6b0
+# Umformen (F3)
+https://create.kahoot.it/share/grundlagen-umformen/2324ddee-8985-42b2-9357-1875cae77222
+https://create.kahoot.it/share/umformen-biegen-von-rohren-und-profilen/91d6124e-97a8-470a-86c3-1b84feccb6e5
+# Verbindungselemente (F4)
+https://create.kahoot.it/share/verbindungstechnik-im-metallbau/5f52c749-df27-474b-b3f5-663e35672d51
+# Dübeltechnik im Metallbau (F4 & F9)
+https://create.kahoot.it/share/dubeltechnik-im-metallbau/7bdb6e22-29ae-434a-9405-f9aae904d4ed
+# Umgang mit elektrischem Strom (F5)
+https://create.kahoot.it/share/grundlagen-der-elektrizitatslehre/aae52c8e-c55c-4939-8730-14245058d686
+# Kleben (F8)
+https://create.kahoot.it/share/kleben-im-metallbau/21e568ad-9fdb-4b20-aef3-407c3eb0b8eb
+# Grundlagen Profilsysteme (F10_F12)
+https://create.kahoot.it/share/profilsysteme-1/0357fed6-5146-4d16-a95c-ae73f0d4b188
+# Fenster und Fassaden im Metallbau (F11)
+https://create.kahoot.it/share/fenster-im-metallbau/dce7aa7a-ff1f-4ab2-a683-443509533c48
+https://create.kahoot.it/share/fassaden-im-metallbau/286bda19-af03-4ff2-92e0-cf71f59a42d6
+# Beschläge (F12_F13)
+https://create.kahoot.it/share/beschlage-im-metallbau/c3f1ed3d-08b5-4d38-9b7f-5b72afc45d17
+# Geländer und Treppen (F14)
+https://create.kahoot.it/share/gelander-im-metallbau/3fb23816-bbbe-43d7-a5b1-8de37db31fdb
+# Korrosion und Korrosionsschutz (F15)
+https://create.kahoot.it/share/korrosion/aea992d4-6776-47e6-8fb1-4c495d03b19c
+https://create.kahoot.it/share/korrosionsschutz/f5079711-5bc3-4196-a7a6-82312df0cab3
+
+[Kahoot: Werkstoffe]
+# Kohlenstoffverbindungen (W3)
+https://create.kahoot.it/share/kohlenstoff-w3/4c6676d5-1aa1-4345-bdf2-131d783758be
+# Stahlherstellung I-III (W6, W9, W10)
+https://create.kahoot.it/share/vom-erz-zum-stahl-w1/8dcebd92-e9da-44ff-8d25-884399a6a65d
+https://create.kahoot.it/share/halbfabrikate/431b7431-79b5-4638-9cef-028d44dcf700
+https://create.kahoot.it/share/bezeichnungssystem-fur-stahle/0cada96c-0d82-435c-b4bb-be50bb31576b
+# Nichteisenmetalle (W11)
+https://create.kahoot.it/share/nichteisenmetalle/5cb6b4df-1a7c-47a9-a554-92d48fb2b479
+https://create.kahoot.it/share/aluminiumherstellung/b9f103b1-6e2a-49bd-ad78-6c5ad4c3bb8c
+https://create.kahoot.it/share/aluminium-werkstoffe/789475c1-316f-43f4-8e6b-d9aa48596ae3
+# Kunst- und Verbundwerkstoffe (W13)
+https://create.kahoot.it/share/kunststoffe-im-metallbau/dfd523cd-c211-439c-ae8c-91c23c79e20d
+# Glas im Metallbau (W14)
+https://create.kahoot.it/share/ruckblick-glas/d0ca30ad-b0a5-4ab1-9630-795da0ea4624
