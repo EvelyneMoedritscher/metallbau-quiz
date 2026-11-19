@@ -74,6 +74,27 @@ Tipps:
 - Kurze Sätze schreiben. Ein Gedanke pro Frage.
 - Nach dem Ändern die Datei im Browser neu laden und das Thema einmal durchspielen. Fehlt ein Komma oder eine Klammer, bleibt die Seite leer.
 
+## Kahoots übernehmen
+
+Das Script `tools/kahoot_import.py` holt die Fragen eines Kahoots und fügt sie als Thema ins Spiel ein. Es braucht nur Python 3.9 oder neuer.
+
+```
+python tools/kahoot_import.py "https://create.kahoot.it/share/…"
+python tools/kahoot_import.py kahoot-links.txt
+```
+
+- In `kahoot-links.txt` stehen alle Kahoots aus der Kursarbeit in Teams. Neue Links einfach dazuschreiben und das Script nochmals laufen lassen.
+- In der Linkliste legt eine Zeile `[Name]` die Gruppe für die Links darunter fest. Zeilen mit `#` sind Notizen.
+- Mehrere Links auf einmal gehen auch. Ohne Link fragt das Script danach. Challenge-Links aus Teams gehen auch.
+- Ohne Gruppe kommen neue Themen in die Gruppe «Kahoot». Eine andere Gruppe: `--gruppe "Name"`.
+- Die Bilder kommen mit in die Datei. Das Spiel läuft weiter ohne Internet.
+- Ein Kahoot, der schon drin ist, wird ersetzt, nicht doppelt eingefügt. `--aktualisieren` holt alle übernommenen Kahoots neu.
+- `--vorschau` zeigt nur, was passieren würde.
+- Hat eine Kahoot-Frage mehrere richtige Antworten, sind sie zusammen die Lösung (z. B. «ESG und TVG»).
+- Freitext-, Pin-, Umfrage- und Puzzle-Fragen werden übersprungen, weil die falschen Antworten fehlen. Fragen, die nur mit einem Video gehen, auch. Das Script zeigt, welche.
+- Die Bilder werden auf 600 px verkleinert. Trotzdem wird die Datei grösser (mit allen Kahoots aus Teams etwa 15 MB).
+- Es geht nur mit Kahoots, die man ohne Anmeldung ansehen kann.
+
 ## Farben und Punkte ändern
 
 - Farben: ganz oben in der Datei bei `:root`.
@@ -83,3 +104,4 @@ Tipps:
 
 - **Spiel und Fragen:** MIT-Lizenz (Datei `LICENSE`). Alle dürfen das Spiel benutzen, ändern und weitergeben, solange der Lizenztext dabei bleibt.
 - **Bilder:** Für die Bilder gilt die MIT-Lizenz **nicht**. Ein Teil der Bilder stammt aus Adobe Stock. Diese Bilder sind nicht frei: Sie dürfen nicht aus dem Spiel herausgelöst und anders verwendet werden.
+- **Übernommene Kahoots:** Fragen und Bilder gehören den Leuten, die den Kahoot gemacht haben. Ein Teil der Bilder stammt von Getty Images. Die MIT-Lizenz gilt dafür nicht.
